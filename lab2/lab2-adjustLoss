@@ -1,0 +1,22 @@
+#!/bin/bash
+# Changes the loss rate on the netem of each host interface
+source /usr/local/ece361-wrapper-prints
+
+if [[ $# -ne 2 ]]; then
+    SCRIPT_NAME=$(basename ${BASH_SOURCE[0]}) # Works w/ symbolic links
+    blue -n "Usage format: "; bold_blue "${SCRIPT_NAME} <host ID> <loss %>"
+    blue "Example:"
+    blue "\t./${SCRIPT_NAME} h1 20%"
+    exit 1
+else
+    MN_HOST=`echo $1 | grep -E -o "[0-9]+"` # Strip the 'h', if it exists
+    LOSS_RATE=`echo $2 | grep -E -o "[0-9]+"` # Strip the '%', if it exists
+fi
+
+if [[ ${LOSS_RATE} -ge 0 && ${LOSS_RATE} -le 100 ]]; then
+    sudo tc qdisc change dev s1-eth${MN_HOST} root netem delay 1ms loss ${LOSS_RATE}%
+else
+    bold_red "ERROR: Loss rate must be a number from 0% to 100% (inclusive)"
+    exit 1
+fi
+

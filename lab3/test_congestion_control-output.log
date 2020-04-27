@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "sender.py", line 82, in <module>
+    sender.sendfile()
+  File "/tmp/tmp.2YE0ljSBCz/senderbase.py", line 67, in sendfile
+    self._arqsend()
+  File "/tmp/tmp.2YE0ljSBCz/congestion_control_sender.py", line 324, in _arqsend
+    self._send_frame(keepalive_frame)
+  File "/tmp/tmp.2YE0ljSBCz/congestion_control_sender.py", line 164, in _send_frame
+    self.sock.sendto(packed_frame, self.destination)
+OSError: [Errno 101] Network is unreachable

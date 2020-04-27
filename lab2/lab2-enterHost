@@ -1,0 +1,23 @@
+#!/bin/bash
+# Drops user into a bash shell within a namespace created by mn
+source /usr/local/ece361-wrapper-prints
+
+if [[ $# -ne 1 ]]; then
+    SCRIPT_NAME=$(basename ${BASH_SOURCE[0]}) # Works w/ symbolic links
+    blue -n "Usage format: "; bold_blue "${SCRIPT_NAME} <host ID>"
+    blue "Example:"
+    blue "\t./${SCRIPT_NAME} h1"
+    exit 1
+else
+    # Strip the 'h', if it exists. Script works with either 'h1' or just '1'.
+    MN_HOST=`echo $1 | grep -E -o "[0-9]+"`
+fi
+
+MN_HOST_PID=`ps aux | grep mininet:h${MN_HOST} | grep -v grep | awk '{print $2}'`
+if [[ ! -n ${MN_HOST_PID} ]]; then
+    bold_red "ERROR: Either the virtual network is not running or host h${MN_HOST} does not exist"
+    exit 1
+else
+    sudo MN_HOST=h${MN_HOST} nsenter -t ${MN_HOST_PID} -n su ubuntu
+fi
+

@@ -1,0 +1,10 @@
+{
+    "sender_address": "192.168.1.2",
+    "receiver_address": "192.168.1.1",
+    "receiver_port": 6789,
+    "arq_protocol": "stopandwait",
+    "timeout": 0.1,
+    "frame_size": 1,
+    "sender_window_size": 2,
+    "maxseqnum": 64
+}

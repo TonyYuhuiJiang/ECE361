@@ -1,0 +1,30 @@
+#!/bin/bash
+
+if [ $# -lt 2 ]; then
+    echo "please provide the load size and running time"
+    echo "Usage: ./run [load type] [time length] (period)"
+    exit 1
+fi
+
+# Exit any pre-existing load sessions 
+SCREEN_NAME=load
+screen -S $SCREEN_NAME -X quit > /dev/null
+
+screen -d -m -S $SCREEN_NAME -t shell -s /bin/bash
+sleep 0.1
+
+screen -S $SCREEN_NAME -X screen -t receiver
+screen -S $SCREEN_NAME -p receiver -X stuff "~/lab3/lab3-enterHost h1^M"
+sleep 0.5
+screen -S $SCREEN_NAME -p receiver -X stuff "iperf -s -u^M"
+sleep 0.5
+screen -S $SCREEN_NAME -X screen -t sender
+screen -S $SCREEN_NAME -p sender -X stuff "~/lab3/lab3-enterHost h2^M"
+sleep 0.5
+if [[ $1 == "dynamic" ]]; then
+    screen -S $SCREEN_NAME -p sender -X stuff "./scripts/dynamic-load $2 $3^M"
+elif [[ $1 == "stop" ]]; then
+    screen -S load -X quit > /dev/null
+else
+    screen -S $SCREEN_NAME -p sender -X stuff "iperf -c 192.168.1.1 -u -t $2 -b $1^M"
+fi

@@ -1,0 +1,821 @@
+Running test, please wait...
+2020-03-24 17:10:46,175 slotted_aloha INFO: Frame size = 704 bits
+2020-03-24 17:10:46,175 slotted_aloha INFO: Tx Rate = 9600 bps
+2020-03-24 17:10:46,176 slotted_aloha INFO: Serializaiton delay = 0.07333333333333333 seconds
+2020-03-24 17:10:46,176 slotted_aloha INFO: Propagation delay = 0 seconds
+2020-03-24 17:10:46,176 slotted_aloha INFO: Global arrival rate = 6.818181818181818 frames / second
+2020-03-24 17:10:46,176 slotted_aloha INFO: Number of stations = 3
+2020-03-24 17:10:46,176 slotted_aloha INFO: Per-station arrival rate = 2.272727272727273 frames / second
+2020-03-24 17:10:46,176 slotted_aloha INFO: ====================
+
+
+2020-03-24 17:10:46,290 slotted_aloha INFO: Starting Station-1
+2020-03-24 17:10:46,290 slotted_aloha INFO: Starting Station-2
+2020-03-24 17:10:46,292 slotted_aloha INFO: Starting Station-3
+2020-03-24 17:10:48,006 slotted_aloha INFO: 
+--- 1.8295331001281738 seconds ---
+2020-03-24 17:10:48,006 slotted_aloha INFO: Number of ACKs: 1
+2020-03-24 17:10:48,006 slotted_aloha INFO: 	S: 0.04008308640504822
+2020-03-24 17:10:48,561 slotted_aloha INFO: 
+--- 2.3858110904693604 seconds ---
+2020-03-24 17:10:48,561 slotted_aloha INFO: Number of ACKs: 2
+2020-03-24 17:10:48,562 slotted_aloha INFO: 	S: 0.061474551464933025
+2020-03-24 17:10:48,635 slotted_aloha INFO: 
+--- 2.459815502166748 seconds ---
+2020-03-24 17:10:48,636 slotted_aloha INFO: Number of ACKs: 3
+2020-03-24 17:10:48,636 slotted_aloha INFO: 	S: 0.08943760205032095
+2020-03-24 17:10:48,709 slotted_aloha INFO: 
+--- 2.533811569213867 seconds ---
+2020-03-24 17:10:48,709 slotted_aloha INFO: Number of ACKs: 4
+2020-03-24 17:10:48,709 slotted_aloha INFO: 	S: 0.11576761938313435
+2020-03-24 17:10:49,005 slotted_aloha INFO: 
+--- 2.8298113346099854 seconds ---
+2020-03-24 17:10:49,005 slotted_aloha INFO: Number of ACKs: 5
+2020-03-24 17:10:49,005 slotted_aloha INFO: 	S: 0.12957283129873462
+2020-03-24 17:10:49,079 slotted_aloha INFO: 
+--- 2.9038302898406982 seconds ---
+2020-03-24 17:10:49,079 slotted_aloha INFO: Number of ACKs: 6
+2020-03-24 17:10:49,080 slotted_aloha INFO: 	S: 0.1515240065989318
+2020-03-24 17:10:49,893 slotted_aloha INFO: 
+--- 3.7178118228912354 seconds ---
+2020-03-24 17:10:49,894 slotted_aloha INFO: Number of ACKs: 7
+2020-03-24 17:10:49,894 slotted_aloha INFO: 	S: 0.13807404941063658
+2020-03-24 17:10:50,116 slotted_aloha INFO: 
+--- 3.9398114681243896 seconds ---
+2020-03-24 17:10:50,116 slotted_aloha INFO: Number of ACKs: 8
+2020-03-24 17:10:50,116 slotted_aloha INFO: 	S: 0.1489072945274609
+2020-03-24 17:10:50,411 slotted_aloha INFO: 
+--- 4.23581075668335 seconds ---
+2020-03-24 17:10:50,411 slotted_aloha INFO: Number of ACKs: 9
+2020-03-24 17:10:50,412 slotted_aloha INFO: 	S: 0.15581432644473986
+2020-03-24 17:10:51,299 slotted_aloha INFO: 
+--- 5.123811721801758 seconds ---
+2020-03-24 17:10:51,299 slotted_aloha INFO: Number of ACKs: 10
+2020-03-24 17:10:51,300 slotted_aloha INFO: 	S: 0.143122615183733
+2020-03-24 17:10:51,447 slotted_aloha INFO: 
+--- 5.271811246871948 seconds ---
+2020-03-24 17:10:51,448 slotted_aloha INFO: Number of ACKs: 11
+2020-03-24 17:10:51,448 slotted_aloha INFO: 	S: 0.15301508891186227
+2020-03-24 17:10:51,669 slotted_aloha INFO: 
+--- 5.493811130523682 seconds ---
+2020-03-24 17:10:51,671 slotted_aloha INFO: Number of ACKs: 12
+2020-03-24 17:10:51,671 slotted_aloha INFO: 	S: 0.16018024265718006
+2020-03-24 17:10:51,817 slotted_aloha INFO: 
+--- 5.6418116092681885 seconds ---
+2020-03-24 17:10:51,818 slotted_aloha INFO: Number of ACKs: 13
+2020-03-24 17:10:51,818 slotted_aloha INFO: 	S: 0.16897645638631884
+2020-03-24 17:10:51,891 slotted_aloha INFO: 
+--- 5.715811014175415 seconds ---
+2020-03-24 17:10:51,891 slotted_aloha INFO: Number of ACKs: 14
+2020-03-24 17:10:51,891 slotted_aloha INFO: 	S: 0.17961872149385216
+2020-03-24 17:10:52,483 slotted_aloha INFO: 
+--- 6.307811260223389 seconds ---
+2020-03-24 17:10:52,483 slotted_aloha INFO: Number of ACKs: 15
+2020-03-24 17:10:52,484 slotted_aloha INFO: 	S: 0.17438695525602077
+2020-03-24 17:10:52,631 slotted_aloha INFO: 
+--- 6.455811262130737 seconds ---
+2020-03-24 17:10:52,631 slotted_aloha INFO: Number of ACKs: 16
+2020-03-24 17:10:52,631 slotted_aloha INFO: 	S: 0.18174839469301265
+2020-03-24 17:10:52,705 slotted_aloha INFO: 
+--- 6.529811143875122 seconds ---
+2020-03-24 17:10:52,706 slotted_aloha INFO: Number of ACKs: 17
+2020-03-24 17:10:52,706 slotted_aloha INFO: 	S: 0.19091925312970556
+2020-03-24 17:10:52,853 slotted_aloha INFO: 
+--- 6.677812099456787 seconds ---
+2020-03-24 17:10:52,854 slotted_aloha INFO: Number of ACKs: 18
+2020-03-24 17:10:52,854 slotted_aloha INFO: 	S: 0.19766953312558416
+2020-03-24 17:10:53,445 slotted_aloha INFO: 
+--- 7.269811153411865 seconds ---
+2020-03-24 17:10:53,445 slotted_aloha INFO: Number of ACKs: 19
+2020-03-24 17:10:53,445 slotted_aloha INFO: 	S: 0.19166018262790974
+2020-03-24 17:10:53,593 slotted_aloha INFO: 
+--- 7.417811393737793 seconds ---
+2020-03-24 17:10:53,594 slotted_aloha INFO: Number of ACKs: 20
+2020-03-24 17:10:53,594 slotted_aloha INFO: 	S: 0.1977222914975763
+2020-03-24 17:10:54,259 slotted_aloha INFO: 
+--- 8.083811283111572 seconds ---
+2020-03-24 17:10:54,259 slotted_aloha INFO: Number of ACKs: 21
+2020-03-24 17:10:54,259 slotted_aloha INFO: 	S: 0.19050419982184844
+2020-03-24 17:10:54,333 slotted_aloha INFO: 
+--- 8.157811403274536 seconds ---
+2020-03-24 17:10:54,333 slotted_aloha INFO: Number of ACKs: 22
+2020-03-24 17:10:54,333 slotted_aloha INFO: 	S: 0.19776546105071063
+2020-03-24 17:10:54,407 slotted_aloha INFO: 
+--- 8.231811761856079 seconds ---
+2020-03-24 17:10:54,407 slotted_aloha INFO: Number of ACKs: 23
+2020-03-24 17:10:54,407 slotted_aloha INFO: 	S: 0.2048961656876327
+2020-03-24 17:10:54,481 slotted_aloha INFO: 
+--- 8.305810689926147 seconds ---
+2020-03-24 17:10:54,481 slotted_aloha INFO: Number of ACKs: 24
+2020-03-24 17:10:54,483 slotted_aloha INFO: 	S: 0.21189984526551367
+2020-03-24 17:10:54,777 slotted_aloha INFO: 
+--- 8.60181212425232 seconds ---
+2020-03-24 17:10:54,777 slotted_aloha INFO: Number of ACKs: 25
+2020-03-24 17:10:54,778 slotted_aloha INFO: 	S: 0.21313338478578883
+2020-03-24 17:10:54,851 slotted_aloha INFO: 
+--- 8.675812005996704 seconds ---
+2020-03-24 17:10:54,851 slotted_aloha INFO: Number of ACKs: 26
+2020-03-24 17:10:54,851 slotted_aloha INFO: 	S: 0.21976809379327059
+2020-03-24 17:10:55,147 slotted_aloha INFO: 
+--- 8.971811532974243 seconds ---
+2020-03-24 17:10:55,147 slotted_aloha INFO: Number of ACKs: 27
+2020-03-24 17:10:55,147 slotted_aloha INFO: 	S: 0.2206912163416356
+2020-03-24 17:10:55,369 slotted_aloha INFO: 
+--- 9.193811655044556 seconds ---
+2020-03-24 17:10:55,369 slotted_aloha INFO: Number of ACKs: 28
+2020-03-24 17:10:55,369 slotted_aloha INFO: 	S: 0.22333863367830567
+2020-03-24 17:10:55,665 slotted_aloha INFO: 
+--- 9.489811182022095 seconds ---
+2020-03-24 17:10:55,665 slotted_aloha INFO: Number of ACKs: 29
+2020-03-24 17:10:55,665 slotted_aloha INFO: 	S: 0.22409999797419733
+2020-03-24 17:10:55,813 slotted_aloha INFO: 
+--- 9.637810945510864 seconds ---
+2020-03-24 17:10:55,813 slotted_aloha INFO: Number of ACKs: 30
+2020-03-24 17:10:55,813 slotted_aloha INFO: 	S: 0.22826760271996457
+2020-03-24 17:10:56,109 slotted_aloha INFO: 
+--- 9.93381142616272 seconds ---
+2020-03-24 17:10:56,109 slotted_aloha INFO: Number of ACKs: 31
+2020-03-24 17:10:56,109 slotted_aloha INFO: 	S: 0.2288480459117682
+2020-03-24 17:10:56,405 slotted_aloha INFO: 
+--- 10.229811429977417 seconds ---
+2020-03-24 17:10:56,405 slotted_aloha INFO: Number of ACKs: 32
+2020-03-24 17:10:56,405 slotted_aloha INFO: 	S: 0.22939490944965024
+2020-03-24 17:10:56,479 slotted_aloha INFO: 
+--- 10.303811311721802 seconds ---
+2020-03-24 17:10:56,479 slotted_aloha INFO: Number of ACKs: 33
+2020-03-24 17:10:56,479 slotted_aloha INFO: 	S: 0.23486454931943138
+2020-03-24 17:10:56,627 slotted_aloha INFO: 
+--- 10.451811790466309 seconds ---
+2020-03-24 17:10:56,627 slotted_aloha INFO: Number of ACKs: 34
+2020-03-24 17:10:56,627 slotted_aloha INFO: 	S: 0.2385551312364469
+2020-03-24 17:10:56,997 slotted_aloha INFO: 
+--- 10.821812152862549 seconds ---
+2020-03-24 17:10:56,997 slotted_aloha INFO: Number of ACKs: 35
+2020-03-24 17:10:56,997 slotted_aloha INFO: 	S: 0.23717531134448133
+2020-03-24 17:10:57,145 slotted_aloha INFO: 
+--- 10.969810962677002 seconds ---
+2020-03-24 17:10:57,145 slotted_aloha INFO: Number of ACKs: 36
+2020-03-24 17:10:57,145 slotted_aloha INFO: 	S: 0.24066048257186662
+2020-03-24 17:10:57,293 slotted_aloha INFO: 
+--- 11.117811441421509 seconds ---
+2020-03-24 17:10:57,293 slotted_aloha INFO: Number of ACKs: 37
+2020-03-24 17:10:57,293 slotted_aloha INFO: 	S: 0.2440528288889931
+2020-03-24 17:10:57,367 slotted_aloha INFO: 
+--- 11.191810846328735 seconds ---
+2020-03-24 17:10:57,367 slotted_aloha INFO: Number of ACKs: 38
+2020-03-24 17:10:57,367 slotted_aloha INFO: 	S: 0.2489915800873976
+2020-03-24 17:10:57,515 slotted_aloha INFO: 
+--- 11.339810848236084 seconds ---
+2020-03-24 17:10:57,515 slotted_aloha INFO: Number of ACKs: 39
+2020-03-24 17:10:57,515 slotted_aloha INFO: 	S: 0.25220879239311783
+2020-03-24 17:10:57,959 slotted_aloha INFO: 
+--- 11.783811807632446 seconds ---
+2020-03-24 17:10:57,959 slotted_aloha INFO: Number of ACKs: 40
+2020-03-24 17:10:57,960 slotted_aloha INFO: 	S: 0.24892907161275232
+2020-03-24 17:10:58,033 slotted_aloha INFO: 
+--- 11.857811689376831 seconds ---
+2020-03-24 17:10:58,033 slotted_aloha INFO: Number of ACKs: 41
+2020-03-24 17:10:58,033 slotted_aloha INFO: 	S: 0.2535599944937798
+2020-03-24 17:10:58,107 slotted_aloha INFO: 
+--- 11.931811571121216 seconds ---
+2020-03-24 17:10:58,107 slotted_aloha INFO: Number of ACKs: 42
+2020-03-24 17:10:58,107 slotted_aloha INFO: 	S: 0.2581334763494406
+2020-03-24 17:10:58,181 slotted_aloha INFO: 
+--- 12.005810737609863 seconds ---
+2020-03-24 17:10:58,181 slotted_aloha INFO: Number of ACKs: 43
+2020-03-24 17:10:58,181 slotted_aloha INFO: 	S: 0.26265059497024057
+2020-03-24 17:10:58,477 slotted_aloha INFO: 
+--- 12.301810503005981 seconds ---
+2020-03-24 17:10:58,477 slotted_aloha INFO: Number of ACKs: 44
+2020-03-24 17:10:58,477 slotted_aloha INFO: 	S: 0.2622920151369769
+2020-03-24 17:10:58,773 slotted_aloha INFO: 
+--- 12.597811460494995 seconds ---
+2020-03-24 17:10:58,776 slotted_aloha INFO: Number of ACKs: 45
+2020-03-24 17:10:58,776 slotted_aloha INFO: 	S: 0.2619502609916291
+2020-03-24 17:10:59,069 slotted_aloha INFO: 
+--- 12.893810749053955 seconds ---
+2020-03-24 17:10:59,072 slotted_aloha INFO: Number of ACKs: 46
+2020-03-24 17:10:59,072 slotted_aloha INFO: 	S: 0.26162423188822137
+2020-03-24 17:10:59,143 slotted_aloha INFO: 
+--- 12.967811346054077 seconds ---
+2020-03-24 17:10:59,143 slotted_aloha INFO: Number of ACKs: 47
+2020-03-24 17:10:59,143 slotted_aloha INFO: 	S: 0.2657863053903417
+2020-03-24 17:10:59,291 slotted_aloha INFO: 
+--- 13.115810632705688 seconds ---
+2020-03-24 17:10:59,291 slotted_aloha INFO: Number of ACKs: 48
+2020-03-24 17:10:59,292 slotted_aloha INFO: 	S: 0.2683783792381464
+2020-03-24 17:10:59,365 slotted_aloha INFO: 
+--- 13.18981671333313 seconds ---
+2020-03-24 17:10:59,365 slotted_aloha INFO: Number of ACKs: 49
+2020-03-24 17:10:59,365 slotted_aloha INFO: 	S: 0.2724323932190018
+2020-03-24 17:10:59,439 slotted_aloha INFO: 
+--- 13.263811111450195 seconds ---
+2020-03-24 17:10:59,440 slotted_aloha INFO: Number of ACKs: 50
+2020-03-24 17:10:59,440 slotted_aloha INFO: 	S: 0.2764414115865506
+2020-03-24 17:11:00,401 slotted_aloha INFO: 
+--- 14.225810527801514 seconds ---
+2020-03-24 17:11:00,401 slotted_aloha INFO: Number of ACKs: 51
+2020-03-24 17:11:00,402 slotted_aloha INFO: 	S: 0.26290241900037364
+2020-03-24 17:11:00,771 slotted_aloha INFO: 
+--- 14.595810890197754 seconds ---
+2020-03-24 17:11:00,771 slotted_aloha INFO: Number of ACKs: 52
+2020-03-24 17:11:00,771 slotted_aloha INFO: 	S: 0.26126217734804236
+2020-03-24 17:11:01,067 slotted_aloha INFO: 
+--- 14.89181113243103 seconds ---
+2020-03-24 17:11:01,069 slotted_aloha INFO: Number of ACKs: 53
+2020-03-24 17:11:01,069 slotted_aloha INFO: 	S: 0.260993550892032
+2020-03-24 17:11:01,141 slotted_aloha INFO: 
+--- 14.965811014175415 seconds ---
+2020-03-24 17:11:01,141 slotted_aloha INFO: Number of ACKs: 54
+2020-03-24 17:11:01,141 slotted_aloha INFO: 	S: 0.2646031007774414
+2020-03-24 17:11:01,363 slotted_aloha INFO: 
+--- 15.187811374664307 seconds ---
+2020-03-24 17:11:01,363 slotted_aloha INFO: Number of ACKs: 55
+2020-03-24 17:11:01,363 slotted_aloha INFO: 	S: 0.2655638283776408
+2020-03-24 17:11:01,659 slotted_aloha INFO: 
+--- 15.483811378479004 seconds ---
+2020-03-24 17:11:01,659 slotted_aloha INFO: Number of ACKs: 56
+2020-03-24 17:11:01,659 slotted_aloha INFO: 	S: 0.26522324292677285
+2020-03-24 17:11:02,917 slotted_aloha INFO: 
+--- 16.74181079864502 seconds ---
+2020-03-24 17:11:02,917 slotted_aloha INFO: Number of ACKs: 57
+2020-03-24 17:11:02,917 slotted_aloha INFO: 	S: 0.2496743064578357
+2020-03-24 17:11:03,139 slotted_aloha INFO: 
+--- 16.96381139755249 seconds ---
+2020-03-24 17:11:03,140 slotted_aloha INFO: Number of ACKs: 58
+2020-03-24 17:11:03,141 slotted_aloha INFO: 	S: 0.2507298173538405
+2020-03-24 17:11:03,657 slotted_aloha INFO: 
+--- 17.481814861297607 seconds ---
+2020-03-24 17:11:03,658 slotted_aloha INFO: Number of ACKs: 59
+2020-03-24 17:11:03,658 slotted_aloha INFO: 	S: 0.24749528015225275
+2020-03-24 17:11:03,731 slotted_aloha INFO: 
+--- 17.555811643600464 seconds ---
+2020-03-24 17:11:03,731 slotted_aloha INFO: Number of ACKs: 60
+2020-03-24 17:11:03,732 slotted_aloha INFO: 	S: 0.2506292553898476
+2020-03-24 17:11:03,805 slotted_aloha INFO: 
+--- 17.62981128692627 seconds ---
+2020-03-24 17:11:03,806 slotted_aloha INFO: Number of ACKs: 61
+2020-03-24 17:11:03,806 slotted_aloha INFO: 	S: 0.2537368812705682
+2020-03-24 17:11:04,027 slotted_aloha INFO: 
+--- 17.85181188583374 seconds ---
+2020-03-24 17:11:04,027 slotted_aloha INFO: Number of ACKs: 62
+2020-03-24 17:11:04,027 slotted_aloha INFO: 	S: 0.2546893668689542
+2020-03-24 17:11:04,175 slotted_aloha INFO: 
+--- 17.99981117248535 seconds ---
+2020-03-24 17:11:04,175 slotted_aloha INFO: Number of ACKs: 63
+2020-03-24 17:11:04,175 slotted_aloha INFO: 	S: 0.2566693592353995
+2020-03-24 17:11:04,323 slotted_aloha INFO: 
+--- 18.14781165122986 seconds ---
+2020-03-24 17:11:04,323 slotted_aloha INFO: Number of ACKs: 64
+2020-03-24 17:11:04,323 slotted_aloha INFO: 	S: 0.25861704008897796
+2020-03-24 17:11:04,397 slotted_aloha INFO: 
+--- 18.2218120098114 seconds ---
+2020-03-24 17:11:04,397 slotted_aloha INFO: Number of ACKs: 65
+2020-03-24 17:11:04,398 slotted_aloha INFO: 	S: 0.26159125470617794
+2020-03-24 17:11:04,767 slotted_aloha INFO: 
+--- 18.591811895370483 seconds ---
+2020-03-24 17:11:04,767 slotted_aloha INFO: Number of ACKs: 66
+2020-03-24 17:11:04,767 slotted_aloha INFO: 	S: 0.26032965626148574
+2020-03-24 17:11:04,915 slotted_aloha INFO: 
+--- 18.739811658859253 seconds ---
+2020-03-24 17:11:04,915 slotted_aloha INFO: Number of ACKs: 67
+2020-03-24 17:11:04,915 slotted_aloha INFO: 	S: 0.2621869110947309
+2020-03-24 17:11:05,063 slotted_aloha INFO: 
+--- 18.88781189918518 seconds ---
+2020-03-24 17:11:05,063 slotted_aloha INFO: Number of ACKs: 68
+2020-03-24 17:11:05,063 slotted_aloha INFO: 	S: 0.2640150533732174
+2020-03-24 17:11:05,655 slotted_aloha INFO: 
+--- 19.479811668395996 seconds ---
+2020-03-24 17:11:05,655 slotted_aloha INFO: Number of ACKs: 69
+2020-03-24 17:11:05,655 slotted_aloha INFO: 	S: 0.2597561047373642
+2020-03-24 17:11:06,025 slotted_aloha INFO: 
+--- 19.849811553955078 seconds ---
+2020-03-24 17:11:06,025 slotted_aloha INFO: Number of ACKs: 70
+2020-03-24 17:11:06,025 slotted_aloha INFO: 	S: 0.258608668368467
+2020-03-24 17:11:06,247 slotted_aloha INFO: 
+--- 20.07181167602539 seconds ---
+2020-03-24 17:11:06,247 slotted_aloha INFO: Number of ACKs: 71
+2020-03-24 17:11:06,247 slotted_aloha INFO: 	S: 0.25940192896915865
+2020-03-24 17:11:06,691 slotted_aloha INFO: 
+--- 20.515811443328857 seconds ---
+2020-03-24 17:11:06,692 slotted_aloha INFO: Number of ACKs: 72
+2020-03-24 17:11:06,692 slotted_aloha INFO: 	S: 0.25736247452775757
+2020-03-24 17:11:06,765 slotted_aloha INFO: 
+--- 20.589811086654663 seconds ---
+2020-03-24 17:11:06,765 slotted_aloha INFO: Number of ACKs: 73
+2020-03-24 17:11:06,765 slotted_aloha INFO: 	S: 0.25999914767567295
+2020-03-24 17:11:06,839 slotted_aloha INFO: 
+--- 20.663811206817627 seconds ---
+2020-03-24 17:11:06,839 slotted_aloha INFO: Number of ACKs: 74
+2020-03-24 17:11:06,840 slotted_aloha INFO: 	S: 0.26261693026290533
+2020-03-24 17:11:06,987 slotted_aloha INFO: 
+--- 20.81181240081787 seconds ---
+2020-03-24 17:11:06,987 slotted_aloha INFO: Number of ACKs: 75
+2020-03-24 17:11:06,987 slotted_aloha INFO: 	S: 0.2642729952622415
+2020-03-24 17:11:07,061 slotted_aloha INFO: 
+--- 20.885812044143677 seconds ---
+2020-03-24 17:11:07,062 slotted_aloha INFO: Number of ACKs: 76
+2020-03-24 17:11:07,062 slotted_aloha INFO: 	S: 0.26684781618994224
+2020-03-24 17:11:07,209 slotted_aloha INFO: 
+--- 21.033811569213867 seconds ---
+2020-03-24 17:11:07,209 slotted_aloha INFO: Number of ACKs: 77
+2020-03-24 17:11:07,209 slotted_aloha INFO: 	S: 0.2684566536162855
+2020-03-24 17:11:07,283 slotted_aloha INFO: 
+--- 21.107810974121094 seconds ---
+2020-03-24 17:11:07,283 slotted_aloha INFO: Number of ACKs: 78
+2020-03-24 17:11:07,284 slotted_aloha INFO: 	S: 0.27098973015311334
+2020-03-24 17:11:07,801 slotted_aloha INFO: 
+--- 21.625811100006104 seconds ---
+2020-03-24 17:11:07,801 slotted_aloha INFO: Number of ACKs: 79
+2020-03-24 17:11:07,802 slotted_aloha INFO: 	S: 0.26788975944267346
+2020-03-24 17:11:08,097 slotted_aloha INFO: 
+--- 21.921811819076538 seconds ---
+2020-03-24 17:11:08,097 slotted_aloha INFO: Number of ACKs: 80
+2020-03-24 17:11:08,097 slotted_aloha INFO: 	S: 0.2676177824663857
+2020-03-24 17:11:08,171 slotted_aloha INFO: 
+--- 21.995811223983765 seconds ---
+2020-03-24 17:11:08,171 slotted_aloha INFO: Number of ACKs: 81
+2020-03-24 17:11:08,171 slotted_aloha INFO: 	S: 0.2700514174954889
+2020-03-24 17:11:08,245 slotted_aloha INFO: 
+--- 22.069811820983887 seconds ---
+2020-03-24 17:11:08,245 slotted_aloha INFO: Number of ACKs: 82
+2020-03-24 17:11:08,245 slotted_aloha INFO: 	S: 0.27246871799857764
+2020-03-24 17:11:08,985 slotted_aloha INFO: 
+--- 22.80981135368347 seconds ---
+2020-03-24 17:11:08,986 slotted_aloha INFO: Number of ACKs: 83
+2020-03-24 17:11:08,986 slotted_aloha INFO: 	S: 0.2668442352410667
+2020-03-24 17:11:09,059 slotted_aloha INFO: 
+--- 22.883811712265015 seconds ---
+2020-03-24 17:11:09,059 slotted_aloha INFO: Number of ACKs: 84
+2020-03-24 17:11:09,059 slotted_aloha INFO: 	S: 0.2691859239821673
+2020-03-24 17:11:09,355 slotted_aloha INFO: 
+--- 23.179811477661133 seconds ---
+2020-03-24 17:11:09,355 slotted_aloha INFO: Number of ACKs: 85
+2020-03-24 17:11:09,355 slotted_aloha INFO: 	S: 0.2689121669233819
+2020-03-24 17:11:09,577 slotted_aloha INFO: 
+--- 23.401812076568604 seconds ---
+2020-03-24 17:11:09,577 slotted_aloha INFO: Number of ACKs: 86
+2020-03-24 17:11:09,578 slotted_aloha INFO: 	S: 0.2694948000621416
+2020-03-24 17:11:09,725 slotted_aloha INFO: 
+--- 23.549811363220215 seconds ---
+2020-03-24 17:11:09,725 slotted_aloha INFO: Number of ACKs: 87
+2020-03-24 17:11:09,725 slotted_aloha INFO: 	S: 0.27091512121257155
+2020-03-24 17:11:09,873 slotted_aloha INFO: 
+--- 23.697810888290405 seconds ---
+2020-03-24 17:11:09,874 slotted_aloha INFO: Number of ACKs: 88
+2020-03-24 17:11:09,874 slotted_aloha INFO: 	S: 0.27231769903784925
+2020-03-24 17:11:10,391 slotted_aloha INFO: 
+--- 24.215811252593994 seconds ---
+2020-03-24 17:11:10,391 slotted_aloha INFO: Number of ACKs: 89
+2020-03-24 17:11:10,393 slotted_aloha INFO: 	S: 0.2695208761989145
+2020-03-24 17:11:10,465 slotted_aloha INFO: 
+--- 24.28981065750122 seconds ---
+2020-03-24 17:11:10,465 slotted_aloha INFO: Number of ACKs: 90
+2020-03-24 17:11:10,465 slotted_aloha INFO: 	S: 0.27171887393703403
+2020-03-24 17:11:10,761 slotted_aloha INFO: 
+--- 24.585811853408813 seconds ---
+2020-03-24 17:11:10,761 slotted_aloha INFO: Number of ACKs: 91
+2020-03-24 17:11:10,761 slotted_aloha INFO: 	S: 0.271430261206041
+2020-03-24 17:11:10,983 slotted_aloha INFO: 
+--- 24.80781054496765 seconds ---
+2020-03-24 17:11:10,983 slotted_aloha INFO: Number of ACKs: 92
+2020-03-24 17:11:10,983 slotted_aloha INFO: 	S: 0.27195736014016164
+2020-03-24 17:11:11,575 slotted_aloha INFO: 
+--- 25.399811029434204 seconds ---
+2020-03-24 17:11:11,576 slotted_aloha INFO: Number of ACKs: 93
+2020-03-24 17:11:11,576 slotted_aloha INFO: 	S: 0.2685059346345822
+2020-03-24 17:11:11,797 slotted_aloha INFO: 
+--- 25.621811628341675 seconds ---
+2020-03-24 17:11:11,797 slotted_aloha INFO: Number of ACKs: 94
+2020-03-24 17:11:11,798 slotted_aloha INFO: 	S: 0.2690416053839161
+2020-03-24 17:11:11,871 slotted_aloha INFO: 
+--- 25.695811986923218 seconds ---
+2020-03-24 17:11:11,871 slotted_aloha INFO: Number of ACKs: 95
+2020-03-24 17:11:11,871 slotted_aloha INFO: 	S: 0.2711207052033247
+2020-03-24 17:11:12,315 slotted_aloha INFO: 
+--- 26.13981056213379 seconds ---
+2020-03-24 17:11:12,315 slotted_aloha INFO: Number of ACKs: 96
+2020-03-24 17:11:12,315 slotted_aloha INFO: 	S: 0.26932100304499396
+2020-03-24 17:11:12,981 slotted_aloha INFO: 
+--- 26.805811166763306 seconds ---
+2020-03-24 17:11:12,982 slotted_aloha INFO: Number of ACKs: 97
+2020-03-24 17:11:12,983 slotted_aloha INFO: 	S: 0.2653653451887776
+2020-03-24 17:11:13,129 slotted_aloha INFO: 
+--- 26.953811168670654 seconds ---
+2020-03-24 17:11:13,129 slotted_aloha INFO: Number of ACKs: 98
+2020-03-24 17:11:13,130 slotted_aloha INFO: 	S: 0.2666289609916084
+2020-03-24 17:11:13,351 slotted_aloha INFO: 
+--- 27.175811052322388 seconds ---
+2020-03-24 17:11:13,351 slotted_aloha INFO: Number of ACKs: 99
+2020-03-24 17:11:13,351 slotted_aloha INFO: 	S: 0.2671493404933567
+2020-03-24 17:11:13,943 slotted_aloha INFO: 
+--- 27.76781129837036 seconds ---
+2020-03-24 17:11:13,943 slotted_aloha INFO: Number of ACKs: 100
+2020-03-24 17:11:13,943 slotted_aloha INFO: 	S: 0.26409475541789323
+2020-03-24 17:11:14,165 slotted_aloha INFO: 
+--- 27.989811897277832 seconds ---
+2020-03-24 17:11:14,166 slotted_aloha INFO: Number of ACKs: 101
+2020-03-24 17:11:14,166 slotted_aloha INFO: 	S: 0.2646200944061009
+2020-03-24 17:11:14,535 slotted_aloha INFO: 
+--- 28.359811782836914 seconds ---
+2020-03-24 17:11:14,535 slotted_aloha INFO: Number of ACKs: 102
+2020-03-24 17:11:14,535 slotted_aloha INFO: 	S: 0.26375351350275267
+2020-03-24 17:11:14,609 slotted_aloha INFO: 
+--- 28.43381118774414 seconds ---
+2020-03-24 17:11:14,609 slotted_aloha INFO: Number of ACKs: 103
+2020-03-24 17:11:14,609 slotted_aloha INFO: 	S: 0.26564618029780884
+2020-03-24 17:11:14,683 slotted_aloha INFO: 
+--- 28.507811069488525 seconds ---
+2020-03-24 17:11:14,683 slotted_aloha INFO: Number of ACKs: 104
+2020-03-24 17:11:14,684 slotted_aloha INFO: 	S: 0.2675290168044284
+2020-03-24 17:11:14,831 slotted_aloha INFO: 
+--- 28.655810832977295 seconds ---
+2020-03-24 17:11:14,833 slotted_aloha INFO: Number of ACKs: 105
+2020-03-24 17:11:14,833 slotted_aloha INFO: 	S: 0.2687064080957287
+2020-03-24 17:11:14,979 slotted_aloha INFO: 
+--- 28.803810834884644 seconds ---
+2020-03-24 17:11:14,979 slotted_aloha INFO: Number of ACKs: 106
+2020-03-24 17:11:14,981 slotted_aloha INFO: 	S: 0.2698716978073941
+2020-03-24 17:11:15,275 slotted_aloha INFO: 
+--- 29.099811792373657 seconds ---
+2020-03-24 17:11:15,276 slotted_aloha INFO: Number of ACKs: 107
+2020-03-24 17:11:15,276 slotted_aloha INFO: 	S: 0.2696466466055662
+2020-03-24 17:11:15,423 slotted_aloha INFO: 
+--- 29.24781060218811 seconds ---
+2020-03-24 17:11:15,423 slotted_aloha INFO: Number of ACKs: 108
+2020-03-24 17:11:15,424 slotted_aloha INFO: 	S: 0.2707894996901916
+2020-03-24 17:11:15,793 slotted_aloha INFO: 
+--- 29.61781072616577 seconds ---
+2020-03-24 17:11:15,793 slotted_aloha INFO: Number of ACKs: 109
+2020-03-24 17:11:15,795 slotted_aloha INFO: 	S: 0.26988265294948505
+2020-03-24 17:11:15,941 slotted_aloha INFO: 
+--- 29.76581072807312 seconds ---
+2020-03-24 17:11:15,941 slotted_aloha INFO: Number of ACKs: 110
+2020-03-24 17:11:15,942 slotted_aloha INFO: 	S: 0.27100443325263524
+2020-03-24 17:11:16,459 slotted_aloha INFO: 
+--- 30.283811330795288 seconds ---
+2020-03-24 17:11:16,459 slotted_aloha INFO: Number of ACKs: 111
+2020-03-24 17:11:16,459 slotted_aloha INFO: 	S: 0.2687904739296312
+2020-03-24 17:11:16,755 slotted_aloha INFO: 
+--- 30.579811334609985 seconds ---
+2020-03-24 17:11:16,755 slotted_aloha INFO: Number of ACKs: 112
+2020-03-24 17:11:16,755 slotted_aloha INFO: 	S: 0.26858678895894783
+2020-03-24 17:11:17,273 slotted_aloha INFO: 
+--- 31.097811937332153 seconds ---
+2020-03-24 17:11:17,273 slotted_aloha INFO: Number of ACKs: 113
+2020-03-24 17:11:17,273 slotted_aloha INFO: 	S: 0.26647105215523953
+2020-03-24 17:11:17,495 slotted_aloha INFO: 
+--- 31.31981134414673 seconds ---
+2020-03-24 17:11:17,495 slotted_aloha INFO: Number of ACKs: 114
+2020-03-24 17:11:17,495 slotted_aloha INFO: 	S: 0.2669237023218014
+2020-03-24 17:11:17,569 slotted_aloha INFO: 
+--- 31.393810510635376 seconds ---
+2020-03-24 17:11:17,569 slotted_aloha INFO: Number of ACKs: 115
+2020-03-24 17:11:17,569 slotted_aloha INFO: 	S: 0.2686304464530149
+2020-03-24 17:11:17,791 slotted_aloha INFO: 
+--- 31.615811109542847 seconds ---
+2020-03-24 17:11:17,791 slotted_aloha INFO: Number of ACKs: 116
+2020-03-24 17:11:17,791 slotted_aloha INFO: 	S: 0.26906368579925605
+2020-03-24 17:11:18,087 slotted_aloha INFO: 
+--- 31.911811351776123 seconds ---
+2020-03-24 17:11:18,087 slotted_aloha INFO: Number of ACKs: 117
+2020-03-24 17:11:18,087 slotted_aloha INFO: 	S: 0.2688659664416843
+2020-03-24 17:11:18,235 slotted_aloha INFO: 
+--- 32.05981206893921 seconds ---
+2020-03-24 17:11:18,235 slotted_aloha INFO: Number of ACKs: 118
+2020-03-24 17:11:18,235 slotted_aloha INFO: 	S: 0.26991216650695904
+2020-03-24 17:11:18,383 slotted_aloha INFO: 
+--- 32.20781064033508 seconds ---
+2020-03-24 17:11:18,383 slotted_aloha INFO: Number of ACKs: 119
+2020-03-24 17:11:18,383 slotted_aloha INFO: 	S: 0.2709487696670051
+2020-03-24 17:11:18,531 slotted_aloha INFO: 
+--- 32.35581135749817 seconds ---
+2020-03-24 17:11:18,531 slotted_aloha INFO: Number of ACKs: 120
+2020-03-24 17:11:18,532 slotted_aloha INFO: 	S: 0.271975871745855
+2020-03-24 17:11:18,679 slotted_aloha INFO: 
+--- 32.50381875038147 seconds ---
+2020-03-24 17:11:18,679 slotted_aloha INFO: Number of ACKs: 121
+2020-03-24 17:11:18,680 slotted_aloha INFO: 	S: 0.272993564278634
+2020-03-24 17:11:18,975 slotted_aloha INFO: 
+--- 32.799811601638794 seconds ---
+2020-03-24 17:11:18,975 slotted_aloha INFO: Number of ACKs: 122
+2020-03-24 17:11:18,975 slotted_aloha INFO: 	S: 0.27276579436875975
+2020-03-24 17:11:19,049 slotted_aloha INFO: 
+--- 32.87381076812744 seconds ---
+2020-03-24 17:11:19,049 slotted_aloha INFO: Number of ACKs: 123
+2020-03-24 17:11:19,049 slotted_aloha INFO: 	S: 0.2743825491854833
+2020-03-24 17:11:19,197 slotted_aloha INFO: 
+--- 33.02181100845337 seconds ---
+2020-03-24 17:11:19,198 slotted_aloha INFO: Number of ACKs: 124
+2020-03-24 17:11:19,198 slotted_aloha INFO: 	S: 0.27537355025760096
+2020-03-24 17:11:19,345 slotted_aloha INFO: 
+--- 33.169811487197876 seconds ---
+2020-03-24 17:11:19,345 slotted_aloha INFO: Number of ACKs: 125
+2020-03-24 17:11:19,345 slotted_aloha INFO: 	S: 0.27635570585635094
+2020-03-24 17:11:19,863 slotted_aloha INFO: 
+--- 33.68781089782715 seconds ---
+2020-03-24 17:11:19,863 slotted_aloha INFO: Number of ACKs: 126
+2020-03-24 17:11:19,863 slotted_aloha INFO: 	S: 0.2742831829596852
+2020-03-24 17:11:20,455 slotted_aloha INFO: 
+--- 34.27981090545654 seconds ---
+2020-03-24 17:11:20,455 slotted_aloha INFO: Number of ACKs: 127
+2020-03-24 17:11:20,456 slotted_aloha INFO: 	S: 0.27168566825002144
+2020-03-24 17:11:20,603 slotted_aloha INFO: 
+--- 34.42781138420105 seconds ---
+2020-03-24 17:11:20,603 slotted_aloha INFO: Number of ACKs: 128
+2020-03-24 17:11:20,603 slotted_aloha INFO: 	S: 0.27264778936758716
+2020-03-24 17:11:20,751 slotted_aloha INFO: 
+--- 34.575812101364136 seconds ---
+2020-03-24 17:11:20,751 slotted_aloha INFO: Number of ACKs: 129
+2020-03-24 17:11:20,751 slotted_aloha INFO: 	S: 0.27360167195109125
+2020-03-24 17:11:20,973 slotted_aloha INFO: 
+--- 34.79781126976013 seconds ---
+2020-03-24 17:11:20,973 slotted_aloha INFO: Number of ACKs: 130
+2020-03-24 17:11:20,974 slotted_aloha INFO: 	S: 0.2739635909692388
+2020-03-24 17:11:21,417 slotted_aloha INFO: 
+--- 35.241811752319336 seconds ---
+2020-03-24 17:11:21,417 slotted_aloha INFO: Number of ACKs: 131
+2020-03-24 17:11:21,417 slotted_aloha INFO: 	S: 0.2725928716202972
+2020-03-24 17:11:21,491 slotted_aloha INFO: 
+--- 35.31581115722656 seconds ---
+2020-03-24 17:11:21,491 slotted_aloha INFO: Number of ACKs: 132
+2020-03-24 17:11:21,492 slotted_aloha INFO: 	S: 0.2740981923621826
+2020-03-24 17:11:21,713 slotted_aloha INFO: 
+--- 35.53781175613403 seconds ---
+2020-03-24 17:11:21,713 slotted_aloha INFO: Number of ACKs: 133
+2020-03-24 17:11:21,713 slotted_aloha INFO: 	S: 0.2744494624559953
+2020-03-24 17:11:21,787 slotted_aloha INFO: 
+--- 35.61181163787842 seconds ---
+2020-03-24 17:11:21,787 slotted_aloha INFO: Number of ACKs: 134
+2020-03-24 17:11:21,787 slotted_aloha INFO: 	S: 0.27593840960942734
+2020-03-24 17:11:21,861 slotted_aloha INFO: 
+--- 35.68581175804138 seconds ---
+2020-03-24 17:11:21,861 slotted_aloha INFO: Number of ACKs: 135
+2020-03-24 17:11:21,861 slotted_aloha INFO: 	S: 0.27742117979897574
+2020-03-24 17:11:22,009 slotted_aloha INFO: 
+--- 35.83381199836731 seconds ---
+2020-03-24 17:11:22,010 slotted_aloha INFO: Number of ACKs: 136
+2020-03-24 17:11:22,010 slotted_aloha INFO: 	S: 0.2783218635457413
+2020-03-24 17:11:22,083 slotted_aloha INFO: 
+--- 35.907811403274536 seconds ---
+2020-03-24 17:11:22,083 slotted_aloha INFO: Number of ACKs: 137
+2020-03-24 17:11:22,083 slotted_aloha INFO: 	S: 0.27979056016069204
+2020-03-24 17:11:22,231 slotted_aloha INFO: 
+--- 36.05581068992615 seconds ---
+2020-03-24 17:11:22,231 slotted_aloha INFO: Number of ACKs: 138
+2020-03-24 17:11:22,232 slotted_aloha INFO: 	S: 0.2806759799975178
+2020-03-24 17:11:23,193 slotted_aloha INFO: 
+--- 37.01781177520752 seconds ---
+2020-03-24 17:11:23,193 slotted_aloha INFO: Number of ACKs: 139
+2020-03-24 17:11:23,193 slotted_aloha INFO: 	S: 0.2753629359626347
+2020-03-24 17:11:23,267 slotted_aloha INFO: 
+--- 37.091811656951904 seconds ---
+2020-03-24 17:11:23,267 slotted_aloha INFO: Number of ACKs: 140
+2020-03-24 17:11:23,267 slotted_aloha INFO: 	S: 0.2767906502281197
+2020-03-24 17:11:23,711 slotted_aloha INFO: 
+--- 37.53581166267395 seconds ---
+2020-03-24 17:11:23,711 slotted_aloha INFO: Number of ACKs: 141
+2020-03-24 17:11:23,711 slotted_aloha INFO: 	S: 0.2754702653807861
+2020-03-24 17:11:24,081 slotted_aloha INFO: 
+--- 37.90581178665161 seconds ---
+2020-03-24 17:11:24,081 slotted_aloha INFO: Number of ACKs: 142
+2020-03-24 17:11:24,081 slotted_aloha INFO: 	S: 0.2747160090369137
+2020-03-24 17:11:24,155 slotted_aloha INFO: 
+--- 37.97981142997742 seconds ---
+2020-03-24 17:11:24,155 slotted_aloha INFO: Number of ACKs: 143
+2020-03-24 17:11:24,155 slotted_aloha INFO: 	S: 0.27611160434539583
+2020-03-24 17:11:24,303 slotted_aloha INFO: 
+--- 38.12781071662903 seconds ---
+2020-03-24 17:11:24,305 slotted_aloha INFO: Number of ACKs: 144
+2020-03-24 17:11:24,305 slotted_aloha INFO: 	S: 0.2769631878022929
+2020-03-24 17:11:24,525 slotted_aloha INFO: 
+--- 38.34981083869934 seconds ---
+2020-03-24 17:11:24,525 slotted_aloha INFO: Number of ACKs: 145
+2020-03-24 17:11:24,526 slotted_aloha INFO: 	S: 0.27727211949121494
+2020-03-24 17:11:24,673 slotted_aloha INFO: 
+--- 38.497812032699585 seconds ---
+2020-03-24 17:11:24,673 slotted_aloha INFO: Number of ACKs: 146
+2020-03-24 17:11:24,673 slotted_aloha INFO: 	S: 0.27811104323467917
+2020-03-24 17:11:24,747 slotted_aloha INFO: 
+--- 38.57181167602539 seconds ---
+2020-03-24 17:11:24,747 slotted_aloha INFO: Number of ACKs: 147
+2020-03-24 17:11:24,747 slotted_aloha INFO: 	S: 0.27947870560356364
+2020-03-24 17:11:24,821 slotted_aloha INFO: 
+--- 38.645811319351196 seconds ---
+2020-03-24 17:11:24,821 slotted_aloha INFO: Number of ACKs: 148
+2020-03-24 17:11:24,821 slotted_aloha INFO: 	S: 0.28084113032707175
+2020-03-24 17:11:24,895 slotted_aloha INFO: 
+--- 38.71981072425842 seconds ---
+2020-03-24 17:11:24,895 slotted_aloha INFO: Number of ACKs: 149
+2020-03-24 17:11:24,895 slotted_aloha INFO: 	S: 0.2821983491727396
+2020-03-24 17:11:24,969 slotted_aloha INFO: 
+--- 38.79381084442139 seconds ---
+2020-03-24 17:11:24,969 slotted_aloha INFO: Number of ACKs: 150
+2020-03-24 17:11:24,969 slotted_aloha INFO: 	S: 0.28355038498574875
+2020-03-24 17:11:25,191 slotted_aloha INFO: 
+--- 39.01581072807312 seconds ---
+2020-03-24 17:11:25,191 slotted_aloha INFO: Number of ACKs: 151
+2020-03-24 17:11:25,191 slotted_aloha INFO: 	S: 0.28381656376464115
+2020-03-24 17:11:25,265 slotted_aloha INFO: 
+--- 39.089810848236084 seconds ---
+2020-03-24 17:11:25,265 slotted_aloha INFO: Number of ACKs: 152
+2020-03-24 17:11:25,265 slotted_aloha INFO: 	S: 0.2851552981400435
+2020-03-24 17:11:25,339 slotted_aloha INFO: 
+--- 39.163811922073364 seconds ---
+2020-03-24 17:11:25,339 slotted_aloha INFO: Number of ACKs: 153
+2020-03-24 17:11:25,339 slotted_aloha INFO: 	S: 0.28648896645518374
+2020-03-24 17:11:25,487 slotted_aloha INFO: 
+--- 39.31181073188782 seconds ---
+2020-03-24 17:11:25,487 slotted_aloha INFO: Number of ACKs: 154
+2020-03-24 17:11:25,488 slotted_aloha INFO: 	S: 0.28727583703420545
+2020-03-24 17:11:25,635 slotted_aloha INFO: 
+--- 39.4598114490509 seconds ---
+2020-03-24 17:11:25,635 slotted_aloha INFO: Number of ACKs: 155
+2020-03-24 17:11:25,635 slotted_aloha INFO: 	S: 0.2880567911821601
+2020-03-24 17:11:26,153 slotted_aloha INFO: 
+--- 39.97781157493591 seconds ---
+2020-03-24 17:11:26,153 slotted_aloha INFO: Number of ACKs: 156
+2020-03-24 17:11:26,153 slotted_aloha INFO: 	S: 0.28615873529136115
+2020-03-24 17:11:26,449 slotted_aloha INFO: 
+--- 40.27381134033203 seconds ---
+2020-03-24 17:11:26,449 slotted_aloha INFO: Number of ACKs: 157
+2020-03-24 17:11:26,450 slotted_aloha INFO: 	S: 0.2858764281344129
+2020-03-24 17:11:26,745 slotted_aloha INFO: 
+--- 40.56981062889099 seconds ---
+2020-03-24 17:11:26,745 slotted_aloha INFO: Number of ACKs: 158
+2020-03-24 17:11:26,746 slotted_aloha INFO: 	S: 0.285598243794006
+2020-03-24 17:11:26,893 slotted_aloha INFO: 
+--- 40.71781086921692 seconds ---
+2020-03-24 17:11:26,893 slotted_aloha INFO: Number of ACKs: 159
+2020-03-24 17:11:26,893 slotted_aloha INFO: 	S: 0.28636117097383246
+2020-03-24 17:11:27,115 slotted_aloha INFO: 
+--- 40.93981146812439 seconds ---
+2020-03-24 17:11:27,115 slotted_aloha INFO: Number of ACKs: 160
+2020-03-24 17:11:27,115 slotted_aloha INFO: 	S: 0.28659959371011934
+2020-03-24 17:11:27,263 slotted_aloha INFO: 
+--- 41.08781051635742 seconds ---
+2020-03-24 17:11:27,263 slotted_aloha INFO: Number of ACKs: 161
+2020-03-24 17:11:27,263 slotted_aloha INFO: 	S: 0.2873520520633809
+2020-03-24 17:11:27,633 slotted_aloha INFO: 
+--- 41.45781087875366 seconds ---
+2020-03-24 17:11:27,633 slotted_aloha INFO: Number of ACKs: 162
+2020-03-24 17:11:27,633 slotted_aloha INFO: 	S: 0.28655637497946795
+2020-03-24 17:11:27,855 slotted_aloha INFO: 
+--- 41.679810762405396 seconds ---
+2020-03-24 17:11:27,855 slotted_aloha INFO: Number of ACKs: 163
+2020-03-24 17:11:27,856 slotted_aloha INFO: 	S: 0.28678952986310274
+2020-03-24 17:11:28,003 slotted_aloha INFO: 
+--- 41.827810764312744 seconds ---
+2020-03-24 17:11:28,004 slotted_aloha INFO: Number of ACKs: 164
+2020-03-24 17:11:28,004 slotted_aloha INFO: 	S: 0.28752799744728097
+2020-03-24 17:11:28,299 slotted_aloha INFO: 
+--- 42.12381196022034 seconds ---
+2020-03-24 17:11:28,299 slotted_aloha INFO: Number of ACKs: 165
+2020-03-24 17:11:28,300 slotted_aloha INFO: 	S: 0.2872484572722584
+2020-03-24 17:11:28,595 slotted_aloha INFO: 
+--- 42.419819831848145 seconds ---
+2020-03-24 17:11:28,595 slotted_aloha INFO: Number of ACKs: 166
+2020-03-24 17:11:28,595 slotted_aloha INFO: 	S: 0.2869727731420911
+2020-03-24 17:11:28,743 slotted_aloha INFO: 
+--- 42.567811250686646 seconds ---
+2020-03-24 17:11:28,744 slotted_aloha INFO: Number of ACKs: 167
+2020-03-24 17:11:28,744 slotted_aloha INFO: 	S: 0.2876978239389539
+2020-03-24 17:11:29,113 slotted_aloha INFO: 
+--- 42.937811851501465 seconds ---
+2020-03-24 17:11:29,113 slotted_aloha INFO: Number of ACKs: 168
+2020-03-24 17:11:29,113 slotted_aloha INFO: 	S: 0.2869265914762536
+2020-03-24 17:11:29,335 slotted_aloha INFO: 
+--- 43.1598117351532 seconds ---
+2020-03-24 17:11:29,336 slotted_aloha INFO: Number of ACKs: 169
+2020-03-24 17:11:29,336 slotted_aloha INFO: 	S: 0.28714984693130846
+2020-03-24 17:11:29,483 slotted_aloha INFO: 
+--- 43.30781149864197 seconds ---
+2020-03-24 17:11:29,483 slotted_aloha INFO: Number of ACKs: 170
+2020-03-24 17:11:29,483 slotted_aloha INFO: 	S: 0.2878618483655678
+2020-03-24 17:11:29,631 slotted_aloha INFO: 
+--- 43.455810546875 seconds ---
+2020-03-24 17:11:29,631 slotted_aloha INFO: Number of ACKs: 171
+2020-03-24 17:11:29,631 slotted_aloha INFO: 	S: 0.2885690047473244
+2020-03-24 17:11:29,705 slotted_aloha INFO: 
+--- 43.529818296432495 seconds ---
+2020-03-24 17:11:29,705 slotted_aloha INFO: Number of ACKs: 172
+2020-03-24 17:11:29,706 slotted_aloha INFO: 	S: 0.2897630595983228
+2020-03-24 17:11:29,779 slotted_aloha INFO: 
+--- 43.60381078720093 seconds ---
+2020-03-24 17:11:29,779 slotted_aloha INFO: Number of ACKs: 173
+2020-03-24 17:11:29,779 slotted_aloha INFO: 	S: 0.2909531629834197
+2020-03-24 17:11:29,853 slotted_aloha INFO: 
+--- 43.67781114578247 seconds ---
+2020-03-24 17:11:29,853 slotted_aloha INFO: Number of ACKs: 174
+2020-03-24 17:11:29,854 slotted_aloha INFO: 	S: 0.2921391815494423
+2020-03-24 17:11:30,001 slotted_aloha INFO: 
+--- 43.8258113861084 seconds ---
+2020-03-24 17:11:30,002 slotted_aloha INFO: Number of ACKs: 175
+2020-03-24 17:11:30,002 slotted_aloha INFO: 	S: 0.29282591530983393
+2020-03-24 17:11:30,075 slotted_aloha INFO: 
+--- 43.89981174468994 seconds ---
+2020-03-24 17:11:30,075 slotted_aloha INFO: Number of ACKs: 176
+2020-03-24 17:11:30,075 slotted_aloha INFO: 	S: 0.2940027793679056
+2020-03-24 17:11:30,223 slotted_aloha INFO: 
+--- 44.04781150817871 seconds ---
+2020-03-24 17:11:30,223 slotted_aloha INFO: Number of ACKs: 177
+2020-03-24 17:11:30,223 slotted_aloha INFO: 	S: 0.29467979351459717
+2020-03-24 17:11:30,297 slotted_aloha INFO: 
+--- 44.12181115150452 seconds ---
+2020-03-24 17:11:30,297 slotted_aloha INFO: Number of ACKs: 178
+2020-03-24 17:11:30,297 slotted_aloha INFO: 	S: 0.2958476316511822
+2020-03-24 17:11:30,519 slotted_aloha INFO: 
+--- 44.34381413459778 seconds ---
+2020-03-24 17:11:30,520 slotted_aloha INFO: Number of ACKs: 179
+2020-03-24 17:11:30,520 slotted_aloha INFO: 	S: 0.2960202436989971
+2020-03-24 17:11:30,593 slotted_aloha INFO: 
+--- 44.417810678482056 seconds ---
+2020-03-24 17:11:30,593 slotted_aloha INFO: Number of ACKs: 180
+2020-03-24 17:11:30,593 slotted_aloha INFO: 	S: 0.29717808686132885
+2020-03-24 17:11:30,741 slotted_aloha INFO: 
+--- 44.565810680389404 seconds ---
+2020-03-24 17:11:30,741 slotted_aloha INFO: Number of ACKs: 181
+2020-03-24 17:11:30,741 slotted_aloha INFO: 	S: 0.29783668535786534
+2020-03-24 17:11:30,889 slotted_aloha INFO: 
+--- 44.71381187438965 seconds ---
+2020-03-24 17:11:30,889 slotted_aloha INFO: Number of ACKs: 182
+2020-03-24 17:11:30,889 slotted_aloha INFO: 	S: 0.2984909160543104
+2020-03-24 17:11:31,407 slotted_aloha INFO: 
+--- 45.23181080818176 seconds ---
+2020-03-24 17:11:31,407 slotted_aloha INFO: Number of ACKs: 183
+2020-03-24 17:11:31,407 slotted_aloha INFO: 	S: 0.2966938479848019
+2020-03-24 17:11:31,555 slotted_aloha INFO: 
+--- 45.37981057167053 seconds ---
+2020-03-24 17:11:31,555 slotted_aloha INFO: Number of ACKs: 184
+2020-03-24 17:11:31,555 slotted_aloha INFO: 	S: 0.29734221371467956
+2020-03-24 17:11:31,851 slotted_aloha INFO: 
+--- 45.67581105232239 seconds ---
+2020-03-24 17:11:31,851 slotted_aloha INFO: Number of ACKs: 185
+2020-03-24 17:11:31,851 slotted_aloha INFO: 	S: 0.29702081592214813
+2020-03-24 17:11:32,369 slotted_aloha INFO: 
+--- 46.193811655044556 seconds ---
+2020-03-24 17:11:32,369 slotted_aloha INFO: Number of ACKs: 186
+2020-03-24 17:11:32,370 slotted_aloha INFO: 	S: 0.2952776467518557
+2020-03-24 17:11:32,517 slotted_aloha INFO: 
+--- 46.34181070327759 seconds ---
+2020-03-24 17:11:32,517 slotted_aloha INFO: Number of ACKs: 187
+2020-03-24 17:11:32,517 slotted_aloha INFO: 	S: 0.29591708060650806
+2020-03-24 17:11:32,887 slotted_aloha INFO: 
+--- 46.71181082725525 seconds ---
+2020-03-24 17:11:32,887 slotted_aloha INFO: Number of ACKs: 188
+2020-03-24 17:11:32,887 slotted_aloha INFO: 	S: 0.2951430574518098
+2020-03-24 17:11:32,961 slotted_aloha INFO: 
+--- 46.78581094741821 seconds ---
+2020-03-24 17:11:32,961 slotted_aloha INFO: Number of ACKs: 189
+2020-03-24 17:11:32,961 slotted_aloha INFO: 	S: 0.2962436627544411
+2020-03-24 17:11:33,109 slotted_aloha INFO: 
+--- 46.93381071090698 seconds ---
+2020-03-24 17:11:33,109 slotted_aloha INFO: Number of ACKs: 190
+2020-03-24 17:11:33,109 slotted_aloha INFO: 	S: 0.29687198039718
+2020-03-24 17:11:33,183 slotted_aloha INFO: 
+--- 47.007811546325684 seconds ---
+2020-03-24 17:11:33,183 slotted_aloha INFO: Number of ACKs: 191
+2020-03-24 17:11:33,183 slotted_aloha INFO: 	S: 0.2979646617427244
+2020-03-24 17:11:33,257 slotted_aloha INFO: 
+--- 47.08181118965149 seconds ---
+2020-03-24 17:11:33,259 slotted_aloha INFO: Number of ACKs: 192
+2020-03-24 17:11:33,260 slotted_aloha INFO: 	S: 0.29905391581653434
+2020-03-24 17:11:33,777 slotted_aloha INFO: 
+--- 47.60216283798218 seconds ---
+2020-03-24 17:11:33,778 slotted_aloha INFO: Number of ACKs: 193
+2020-03-24 17:11:33,778 slotted_aloha INFO: 	S: 0.2973254257691053
+2020-03-24 17:11:34,219 slotted_aloha INFO: 
+--- 48.04381561279297 seconds ---
+2020-03-24 17:11:34,219 slotted_aloha INFO: Number of ACKs: 194
+2020-03-24 17:11:34,219 slotted_aloha INFO: 	S: 0.296118584363196
+2020-03-24 17:11:34,589 slotted_aloha INFO: 
+--- 48.413811445236206 seconds ---
+2020-03-24 17:11:34,589 slotted_aloha INFO: Number of ACKs: 195
+2020-03-24 17:11:34,589 slotted_aloha INFO: 	S: 0.29537025846799103
+2020-03-24 17:11:34,663 slotted_aloha INFO: 
+--- 48.48781156539917 seconds ---
+2020-03-24 17:11:34,663 slotted_aloha INFO: Number of ACKs: 196
+2020-03-24 17:11:34,663 slotted_aloha INFO: 	S: 0.29643188399927956
+2020-03-24 17:11:35,033 slotted_aloha INFO: 
+--- 48.85781216621399 seconds ---
+2020-03-24 17:11:35,034 slotted_aloha INFO: Number of ACKs: 197
+2020-03-24 17:11:35,034 slotted_aloha INFO: 	S: 0.29568795707673506
+2020-03-24 17:11:35,477 slotted_aloha INFO: 
+--- 49.30181097984314 seconds ---
+2020-03-24 17:11:35,477 slotted_aloha INFO: Number of ACKs: 198
+2020-03-24 17:11:35,477 slotted_aloha INFO: 	S: 0.2945125079875148
+2020-03-24 17:11:36,069 slotted_aloha INFO: 
+--- 49.89381194114685 seconds ---
+2020-03-24 17:11:36,069 slotted_aloha INFO: Number of ACKs: 199
+2020-03-24 17:11:36,070 slotted_aloha INFO: 	S: 0.2924878409881202
+2020-03-24 17:11:36,143 slotted_aloha INFO: 
+--- 49.967811822891235 seconds ---
+2020-03-24 17:11:36,143 slotted_aloha INFO: Number of ACKs: 200
+2020-03-24 17:11:36,143 slotted_aloha INFO: 	S: 0.2935222922839214
+2020-03-24 17:11:36,291 slotted_aloha INFO: 
+--- 50.11581087112427 seconds ---
+2020-03-24 17:11:36,291 slotted_aloha INFO: Number of ACKs: 201
+2020-03-24 17:11:36,292 slotted_aloha INFO: 	S: 0.29411875701073203
+2020-03-24 17:11:36,292 slotted_aloha INFO: Written results to file, exiting central station
+2020-03-24 17:11:37,652 slotted_aloha INFO: Total run time: 51.477251052856445 seconds
+2020-03-24 17:11:37,653 slotted_aloha INFO: Exiting, bye!

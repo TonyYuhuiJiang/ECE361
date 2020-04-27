@@ -1,0 +1,69 @@
+#!/bin/bash
+# This script sets up the mininet environment for lab 2
+source /usr/local/ece361-wrapper-prints
+
+# Detect if old instance of mn exists and ask user if they want to kill it.
+# Exit script if they answer no.
+MN_PID=`pgrep mn`
+if [[ -n ${MN_PID} ]]; then
+    bold_yellow "WARNING: Detected existing instance of virtual network."
+
+    unset CONSENT
+    while [[ ! -n ${CONSENT} ]]; do
+        bold_yellow -n "Kill the previous virtual network instance? (yes/no) => "
+        read CONSENT
+        echo
+
+        if [[ ${CONSENT} =~ [yY] ]]; then
+            blue "Killing previous virtual network instance..."
+            echo; echo
+            screen -S mininet -X quit
+            sudo kill -9 ${MN_PID} # Just in case it became orphaned
+            # TODO: Figure out way to boot hosts from the namespace
+        elif [[ ${CONSENT} =~ [nN] ]]; then
+            blue "Leaving previous instance alone; Aborting creation of new virtual network."
+            exit 0
+        else
+            blue -n "Please enter either "; bold_green -n "\"y\""; blue -n " or "; bold_red "\"n\""
+            unset CONSENT
+        fi
+    done
+fi
+
+# Exit any pre-existing mininet sessions and clean up
+screen -S mininet -X quit > /dev/null
+sudo mn -c 2> /dev/null
+
+# Create new screen and start mn within it
+bold_blue "Creating new virtual network (2 hosts, 1 switch)..."
+screen -d -m -S mininet
+sleep 0.1
+screen -S mininet -X stuff "sudo mn --topo single,2 --switch ovsk --controller none"
+
+while [[ `ps faux | grep -E "mininet:h[0-9]+" | wc -l` -ne 2 ]]; do
+    sleep 1
+done
+
+# Change IPs
+H1_IP=192.168.1.1
+H2_IP=192.168.1.2
+bold_blue "Configuring host IP addresses..."
+screen -S mininet -X stuff "h1 ifconfig h1-eth0 ${H1_IP}/24 up"
+sleep 0.5
+screen -S mininet -X stuff "h2 ifconfig h2-eth0 ${H2_IP}/24 up"
+
+# Pre-add netem qdisc to the interfaces on OVS w/ one-way delays of 1ms
+sudo tc qdisc add dev s1-eth1 root netem delay 1ms
+sudo tc qdisc add dev s1-eth2 root netem delay 1ms
+
+# Pre-insert flow rules to enable 2-way communication
+sudo ovs-ofctl add-flow s1 in_port=1,actions=output:2
+sudo ovs-ofctl add-flow s1 in_port=2,actions=output:1
+
+bold_green "Done."
+echo; echo;
+
+bold_green "Created two hosts with (ID: IP):"
+green "\th1: ${H1_IP}"
+green "\th2: ${H2_IP}"
+echo

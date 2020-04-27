@@ -1,0 +1,20 @@
+{
+    "sender_address": "192.168.1.2",
+    "receiver_address": "192.168.1.1",
+    "receiver_port": 6789,
+    "protocol": "flow_control",
+    "timeout": 0.5,
+    "frame_size": 512,
+    "sender_window_size": 8192,
+    "receiver_window_size": 60000,
+    "maxseqnum": 1048576,
+    "application_wait_time": 0, 
+    "application_max_read_bytes": -1,
+    "ack_byte_received_limit": 1,
+    "ack_byte_processed_limit": 0,
+    "ack_flow_window_limit": 0,
+    "keepalive_timeout": 0.1,
+    "use_flow_control": true
+}
+
+

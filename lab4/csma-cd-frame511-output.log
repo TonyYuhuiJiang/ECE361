@@ -1,0 +1,55 @@
+
+====================
+SIMULATION PARAMETERS:
+  - NUM_STATIONS = 3
+  - NUM_FRAMES = 1000000 (per station)
+  - ARR_RATE = 10000.0 (frames / sec)
+  - FRAME_SIZE = 511 (bits)
+  - MEDIUM_BW = 10000000 (bits / sec)
+  - MEDIUM_DIAMETER = 2500 (metres)
+  - MEDIUM_VELOCITY = 97656250 (metres / sec)
+  - SERIALIZATION_DELAY = 5.11e-05 (sec)
+  - PROP_DELAY = 2.56e-05 (sec)
+  - NORM_DELAY_BW = 0.5009784735812133
+
+====================
+Generating arrival times...
+Generated 3000000 arrivals in 0.8824377059936523 seconds
+
+====================
+Starting CSMA-CD simulation...
+
+Progress update (0 seconds)
+Station 0 has 1000000 remaining frames
+Station 1 has 1000000 remaining frames
+Station 2 has 999999 remaining frames
+
+Progress update (1 seconds)
+Station 0 has 741341 remaining frames
+Station 1 has 740272 remaining frames
+Station 2 has 741248 remaining frames
+
+Progress update (2 seconds)
+Station 0 has 438500 remaining frames
+Station 1 has 438844 remaining frames
+Station 2 has 438078 remaining frames
+
+Progress update (3 seconds)
+Station 0 has 140423 remaining frames
+Station 1 has 140452 remaining frames
+Station 2 has 139463 remaining frames
+
+Finished transmitting frames from all stations
+Elapsed real time: 3.47546 seconds
+Elapsed simulation time: 255.51309 seconds
+
+====================
+Stations' statistics (stations' point-of-view):
+  - Number of successful transmissions: 1433902 (47.797 %)
+  - Number of frame collisions: 1566098
+  - Efficiency of channel utilization: 28.677 %
+
+Actual statistics:
+  - Number of successful transmissions: 1428391 (47.613 %)
+  - Number of frame collisions: 1571609
+  - Efficiency of channel utilization: 28.566 %

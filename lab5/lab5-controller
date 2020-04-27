@@ -1,0 +1,70 @@
+#!/bin/bash
+# Script to start, stop, or restart the Ryu OpenFlow controller
+source /usr/local/ece361-wrapper-prints
+
+if [[ $# -ne 1 ]]; then
+    SCRIPT_NAME=$(basename ${BASH_SOURCE[0]}) # Works w/ symbolic links
+    blue -n "Usage format: "; bold_blue "${SCRIPT_NAME} <start | stop | restart>"
+    blue "Example:"
+    blue "\t./${SCRIPT_NAME} start"
+    blue "\t./${SCRIPT_NAME} stop"
+    blue "\t./${SCRIPT_NAME} restart"
+    exit 1
+else
+    SUBCOMMAND=$1
+fi
+
+EXISTING_RYU_PID=`ps aux | grep ryu-manager | grep python | awk '{print $2}'`
+
+function startRyuController() {
+    # Kill any other screens that may be named 'ryu' to avoid conflict
+    # NOTE: This is user-unfriendly, should probably warn instead...
+    screen -ls | awk '{print $1}' | egrep '[0-9]+.ryu' | xargs -I{} screen -S {} -X quit
+
+    if [[ -z ${EXISTING_RYU_PID} ]]; then
+        SCRIPT_DIR=$(dirname $(readlink -f "${BASH_SOURCE[0]}"))
+        CONTROLLER_LOGFILE=${SCRIPT_DIR}/controller.log
+
+        # Start Ryu in a background screen and enable screen logging
+        screen -S ryu -d -m
+        sleep 0.1
+        screen -S ryu -X logfile ${CONTROLLER_LOGFILE}
+        screen -S ryu -X log on
+        screen -S ryu -X stuff "source ~/lab5/.venv/bin/activate"
+        screen -S ryu -X stuff "ryu-manager ~/lab5/.controller_app.py"
+        sleep 1
+
+        EXISTING_RYU_PID=`ps aux | grep ryu-manager | grep python | awk '{print $2}'`
+        if [[ -n ${EXISTING_RYU_PID} ]]; then
+            bold_green "Started new Ryu instance with PID ${EXISTING_RYU_PID}"
+        else
+            bold_red "ERROR: Failed to start Ryu controller, see the end of ${CONTROLLER_LOGFILE}"
+        fi
+    else
+        bold_blue "An instance of Ryu is already running with PID ${EXISTING_RYU_PID}"
+    fi
+}
+
+function stopRyuController() {
+    if [[ -n ${EXISTING_RYU_PID} ]]; then
+        sudo kill -9 ${EXISTING_RYU_PID}
+        bold_blue "Killed Ryu instance with PID ${EXISTING_RYU_PID}"
+    else
+        bold_blue "No current instance of Ryu found to be running"
+    fi
+
+    unset EXISTING_RYU_PID
+}
+
+if [[ "${SUBCOMMAND}" == "start" ]]; then
+    startRyuController
+elif [[ "${SUBCOMMAND}" == "stop" ]]; then
+    stopRyuController
+elif [[ "${SUBCOMMAND}" == "restart" ]]; then
+    stopRyuController
+    sleep 1
+    startRyuController
+else
+    bold_red "ERROR: Unknown command \"${SUBCOMMAND}\""
+    exit 1
+fi
